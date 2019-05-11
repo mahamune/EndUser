@@ -1,0 +1,64 @@
+label{
+    padding-right: 30px;
+    color: white;
+}
+
+.header-wrapper {
+    background-color: cadetblue;
+    margin-top: 50px;
+    padding-bottom: 45px;
+    /* box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); */
+    box-shadow: inset 4px 1px 10px white;
+
+}
+
+.header-element {
+    margin-top: 50px;
+}
+
+.header-background {
+    margin-top: 20px;
+    padding-top: 28px;
+}
+
+h3{
+    color: white;
+}
+
+h5 {
+    text-align: left;
+    color: white;
+}
+
+.radio-wrapper {
+    background-color: black;
+        /* background-color: pink; */
+        padding: 20px;
+        border: 1px solid red;
+        border-radius: 15px;
+ 
+}
+
+.header-background, .textColor, .header-style {
+    margin-top: 20px;
+}
+
+
+#imageSlider-Radio{
+    margin-top: 40px;
+}
+
+/* -------------Horizantal small images---------------- */
+.list-inline li img{
+    height: 60px;
+    width: 69px;
+    border: 1.4px solid black;
+}
+
+/* -------------Vartical small images---------------- */
+#horiz-image-menu .list-inline li img{
+    height: 60px;
+    width: 69px;
+    border: 1.4px solid black;
+    margin-top: 10px;
+}

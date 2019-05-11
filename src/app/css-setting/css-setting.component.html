@@ -1,0 +1,302 @@
+<div class="container header-wrapper">
+    <div class="row">
+        <div class="col-sm-1">
+
+        </div>
+        <div class="col-md-10 col-xs-10">
+            <h3 class="text-center"> Header style</h3>
+            <div class="header-element">
+                <app-navbar></app-navbar>
+            </div>
+            <div class="header-background">
+                <div class="radio-wrapper">
+                    <h5> Change Header Background color</h5>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" (click)="setHeaderColor('pink-Header')">
+                            Pink
+                        </label>
+                        <label>
+                            <input type="radio" (click)="setHeaderColor('blue-Header')">
+                            Blue
+                        </label>
+                        <label>
+                            <input type="radio" (click)="setHeaderColor('orange-Header')">
+                            Orange
+                        </label>
+                        <label>
+                            <input type="radio" (click)="setHeaderColor('black-Header')">
+                            black
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="textColor">
+                <div class="radio-wrapper">
+                    <h5>Text Color</h5>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" (click)="setHeaderTextColor('Header-red')">
+                            Red
+                        </label>
+                        <label>
+                            <input type="radio" (click)="setHeaderTextColor('Header-white')">
+                            White
+                        </label>
+                        <label>
+                            <input type="radio" (click)="setHeaderTextColor('Header-black')">
+                            Black
+                        </label>
+                        <label>
+                            <input type="radio" (click)="setHeaderTextColor('Header-green')">
+                            Green
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="header-style">
+                <div class="radio-wrapper">
+                    <h5>Header text Style</h5>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" (click)="setHeaderTextStyle('header-text-sans')">
+                            San
+                        </label>
+                        <label>
+                            <input type="radio" (click)="setHeaderTextStyle('header-text-cursive')">
+                            Cursive
+                        </label>
+                        <label>
+                            <input type="radio" (click)="setHeaderTextStyle('header-text-monospace')">
+                            Monospace
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+<div class="container header-wrapper">
+    <div class="row">
+        <div class="col-sm-1">
+
+        </div>
+        <div class="col-md-10 col-xs-10">
+            <h3 class="text-center"> Footer style</h3>
+            <div class="header-element">
+                <app-footer></app-footer>
+            </div>
+            <div class="header-background">
+                <div class="radio-wrapper">
+                    <h5> Change Footer Background color</h5>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" (click)="setfooterBackground('deeppink')">
+                            Pink
+                        </label>
+                        <label>
+                            <input type="radio" (click)="setfooterBackground('dodgerblue')">
+                            Blue
+                        </label>
+                        <label>
+                            <input type="radio" (click)="setfooterBackground('orangered')">
+                            Orange
+                        </label>
+                        <label>
+                            <input type="radio" (click)="setfooterBackground('black')">
+                            black
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="textColor">
+                <div class="radio-wrapper">
+                    <h5>Text Color</h5>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" (click)="setFooterTextColor('Footer-red')">
+                            Red
+                        </label>
+                        <label>
+                            <input type="radio" (click)="setFooterTextColor('Footer-white')">
+                            White
+                        </label>
+                        <label>
+                            <input type="radio" (click)="setFooterTextColor('Footer-black')">
+                            Black
+                        </label>
+                        <label>
+                            <input type="radio" (click)="setFooterTextColor('Footer-green')">
+                            Green
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="textColor">
+                <div class="radio-wrapper">
+                    <h5>Heading Text Color</h5>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" (click)="setHeadingTextColor('Heading-red')" checked>
+                            Red
+                        </label>
+                        <label>
+                            <input type="radio" (click)="setHeadingTextColor('Heading-white')">
+                            White
+                        </label>
+                        <label>
+                            <input type="radio" (click)="setHeadingTextColor('Heading-black')">
+                            Black
+                        </label>
+                        <label>
+                            <input type="radio" (click)="setHeadingTextColor('Heading-green')">
+                            Green
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="header-style">
+                <div class="radio-wrapper">
+                    <h5>Footer text Style</h5>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" (click)="setFooterTextStyle('header-text-sans')">
+                            San
+                        </label>
+                        <label>
+                            <input type="radio" (click)="setFooterTextStyle('header-text-cursive')">
+                            Cursive
+                        </label>
+                        <label>
+                            <input type="radio" (click)="setFooterTextStyle('header-text-monospace')">
+                            Monospace
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="header-style">
+                <div class="radio-wrapper">
+                    <h5>Map</h5>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" (click)="isMap('enable')">
+                            Enable
+                        </label>
+                        <label>
+                            <input type="radio" (click)="isMap('false')">
+                            Disable
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="container header-wrapper">
+    <div class="row">
+        <div class="col-md-6">
+
+            <div id="imageSlider-Radio">
+
+                <!-- <label>
+                                <input type="radio" (click)="setsliderAligment('horizontal')">
+                                horizontal
+                            </label> -->
+                <button class="btn btn-primary" (click)="setsliderAligment('horizontal')">Horizontal </button>
+                <ul class="list-inline">
+                    <li class="list-inline-item">
+                        <img src="assets/bags/bag1.jpg">
+                    </li>
+                    <li class="list-inline-item">
+                        <img src="assets/bags/bag2.jpg">
+                    </li>
+                    <li class="list-inline-item">
+                        <img src="assets/bags/bag3.jpg">
+                    </li>
+                    <li class="list-inline-item">
+                        <img src="assets/bags/bag4.jpg">
+                    </li>
+                </ul>
+
+
+
+
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="" id="imageSlider-Radio">
+                <!-- <label>
+                                <input type="radio" (click)= "setsliderAligment('vertical')">
+                                vertical
+                            </label> -->
+                <button class="btn btn-primary" (click)="setsliderAligment('vertical')">Vertical </button>
+                <ul class="list-inline">
+                    <li class="list-inline-item">
+                        <img src="assets/bags/bag1.jpg">
+                    </li>
+                    <li class="list-inline-item1">
+                        <img src="assets/bags/bag2.jpg">
+                    </li>
+                    <li class="list-inline-item1">
+                        <img src="assets/bags/bag3.jpg">
+                    </li>
+                    <li class="list-inline-item1">
+                        <img src="assets/bags/bag4.jpg">
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+
+
+<div class="container header-wrapper">
+    <div class="row">
+        
+        <div class="col-md-10">
+        
+
+<div class="header-style">
+    <div class="radio-wrapper">
+        <h5> Company Name or Logo</h5>
+        
+    </div>
+</div>
+        </div>
+    </div>
+
+</div>
+
+
